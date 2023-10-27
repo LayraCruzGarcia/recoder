@@ -3,14 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <title>Produtos - Full Stack Eletro</title>
+        <style>
+            table{
+                width: 100%;
+                background-color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+
+            }
+            a{
+                color: white;
+            }
+
+            table#pro{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: white;
+            }
+            h5{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            img{
+                width: 25%;
+            }
+            
+        </style>
     </head>
     <body>
+        <table>
+            <tr>
+                <td><a href="index.html">Página inicial</a></td>
+                <td><a href="produtos.html">Produtos</a></td>
+                <td><a href="loja.html">Nossas Lojas</a></td>
+                <td><a href="contato.html">Contato</a></td>
+            </tr>
+        </table>
+
         <h2>Produtos</h2>
-        <a href="index.html">Página inicial</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="loja.html">Nossas Lojas</a>
-        <a href="contato.html">Contato</a>
-        <hr>
+
+        <table id="pro">
+            <tr>
+                <td>
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li>Geladeiras (3)</li>
+                        <li>Fogões (2)</li>
+                        <li>Microondas (3)</li>
+                        <li>Máquina de lavar roupas (2)</li>
+                        <li>Lava-louças (4)</li>
+                    </ul>
+                </td>
+                <td> 
+                    <img src="imagens/-728109289.jpg" alt="Geladeira">
+                    <h5>Geladeira Eletrolux</h5>
+                    <h6><strike>R$ 3.100,00</strike></h6>
+                    <h6>R$ 2.599,00</h6>
+                </td>
+            </tr>
+        </table>
         <h4>Formas de pagamento</h4>
        <img src="imagens/formasdepag.png" alt="Formas de pagamento">
     </body>
